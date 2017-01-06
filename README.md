@@ -9,4 +9,4 @@ Array is used to model tree
               1   9 8   3
              / \
             5   2
- for each index i (starting from 1) child be 2*i and 2*i+1
+ for each index i (starting from 0th index in array) left child be 2*i+1 and  right child will be 2*i+1
