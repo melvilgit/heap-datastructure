@@ -36,7 +36,7 @@ def min_heapify(arr, i, n):
 arr=[7,4,6,1,9,8,3,5,2]
 i = len(arr) / 2
 while i >= 0:
-    min_heapify(arr, i, 8)
+    min_heapify(arr, i, len(arr))
     i -= 1
 
 print arr
